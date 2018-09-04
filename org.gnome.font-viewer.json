@@ -34,7 +34,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-desktop",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-desktop.git",
                     "tag": "3.28.2",
                     "commit": "5c6d3bf91ef2bec24e51ed80d32a7c8155116aa1"
                 }
@@ -47,7 +47,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://git.gnome.org/browse/gnome-font-viewer",
+                    "url": "https://gitlab.gnome.org/GNOME/gnome-font-viewer.git",
                     "tag": "3.28.0",
                     "commit": "ff2a81f3c71f1f6a970b079e9df8fefed88d96cd"
                 },
