@@ -53,7 +53,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "0001-We-don-t-install-any-icons.patch",
+                    "path": "0001-icon-update-app-icon.patch",
                     "use-git": true
                 },
                 {
