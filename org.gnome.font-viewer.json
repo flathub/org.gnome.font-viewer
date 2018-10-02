@@ -60,6 +60,16 @@
                     "type": "patch",
                     "path": "0001-Fix-up-appdata.patch",
                     "use-git": true
+                },
+                {
+                    "type": "patch",
+                    "path": "0002-Update-app-data.patch",
+                    "use-git": true
+                },
+                {
+                    "type": "patch",
+                    "path": "0003-Add-closing-release-tag.patch",
+                    "use-git": true
                 }
             ]
         }
