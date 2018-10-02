@@ -8,6 +8,7 @@
         "--device=dri",
         "--share=ipc",
         "--socket=wayland",
+        "--socket=x11",
         "--socket=fallback-x11",
         "--talk-name=org.gtk.vfs", "--talk-name=org.gtk.vfs.*",
         "--talk-name=ca.desrt.conf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf",
@@ -59,6 +60,16 @@
                 {
                     "type": "patch",
                     "path": "0001-Fix-up-appdata.patch",
+                    "use-git": true
+                },
+                {
+                    "type": "patch",
+                    "path": "0002-Update-app-data.patch",
+                    "use-git": true
+                },
+                {
+                    "type": "patch",
+                    "path": "0003-Add-closing-release-tag.patch",
                     "use-git": true
                 }
             ]

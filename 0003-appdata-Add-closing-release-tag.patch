@@ -1,0 +1,24 @@
+From 42c9984736dbba6abf118c0db3c1a3d8456cb68e Mon Sep 17 00:00:00 2001
+From: Jeremy Bicha <jbicha@debian.org>
+Date: Mon, 1 Oct 2018 22:15:25 -0400
+Subject: [PATCH 3/3] appdata: Add closing release tag
+
+---
+ data/org.gnome.font-viewer.appdata.xml.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/data/org.gnome.font-viewer.appdata.xml.in b/data/org.gnome.font-viewer.appdata.xml.in
+index 9dfcd20..e5af962 100644
+--- a/data/org.gnome.font-viewer.appdata.xml.in
++++ b/data/org.gnome.font-viewer.appdata.xml.in
+@@ -41,6 +41,7 @@
+           <li>Translation updates</li>
+         </ul>
+       </description>
++    </release>
+     <release version="3.28.0" date="2018-03-13">
+       <description>
+         <ul>
+-- 
+2.19.0
+
