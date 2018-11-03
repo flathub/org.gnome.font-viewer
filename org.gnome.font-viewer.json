@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.font-viewer",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.28",
+    "runtime-version": "3.30",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-font-viewer",
     "finish-args": [
@@ -36,8 +36,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-desktop.git",
-                    "tag": "3.28.2",
-                    "commit": "5c6d3bf91ef2bec24e51ed80d32a7c8155116aa1"
+                    "tag": "3.30.2",
+                    "commit": "8b7e4d1986450c4991e03de6b32bc98ee4f13c21"
                 }
             ]
         },
@@ -49,18 +49,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-font-viewer.git",
-                    "tag": "3.28.0",
-                    "commit": "ff2a81f3c71f1f6a970b079e9df8fefed88d96cd"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-icon-update-app-icon.patch",
-                    "use-git": true
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-Fix-up-appdata.patch",
-                    "use-git": true
+                    "tag": "3.30.0",
+                    "commit": "0552ef75e21dc85bac346f0595fccee584929382"
                 },
                 {
                     "type": "patch",
@@ -69,7 +59,7 @@
                 },
                 {
                     "type": "patch",
-                    "path": "0003-Add-closing-release-tag.patch",
+                    "path": "0003-appdata-Add-closing-release-tag.patch",
                     "use-git": true
                 }
             ]
