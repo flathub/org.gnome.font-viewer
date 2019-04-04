@@ -25,7 +25,7 @@
     "modules": [
         {
             "name": "gnome-desktop",
-            "buildsystem": "autotools",
+            "buildsystem": "meson",
             "builddir": true,
             "config-opts": [
                 "--libdir=/app/lib"
