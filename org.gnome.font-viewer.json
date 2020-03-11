@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.font-viewer",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-font-viewer",
     "finish-args": [
@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url" : "https://download.gnome.org/sources/gnome-desktop/3.34/gnome-desktop-3.34.0.tar.xz",
-                    "sha256" : "8d331ee655c1d56b2b97562a07c7a7598ff6706a11ff1cdce97423ebc6b62426"
+                    "url" : "https://download.gnome.org/sources/gnome-desktop/3.36/gnome-desktop-3.36.0.tar.xz",
+                    "sha256" : "4b04c359ccddeffb15f2e148a7871c474f6cfed1e0da21de060a93f6b9ae5c15"
                 }
             ]
         },
