@@ -43,6 +43,10 @@
                     "url": "https://gitlab.gnome.org/GNOME/gnome-font-viewer.git",
                     "tag": "3.34.0",
                     "commit": "f8c6054ea0c0a9586e1a5c0e6460a4c0168c38af"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.xml.patch"
                 }
             ]
         }
