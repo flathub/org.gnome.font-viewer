@@ -8,7 +8,6 @@
         "--device=dri",
         "--share=ipc",
         "--socket=wayland",
-        "--socket=x11",
         "--socket=fallback-x11",
         "--talk-name=org.gtk.vfs", "--talk-name=org.gtk.vfs.*"
     ],
@@ -29,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url" : "https://download.gnome.org/sources/gnome-desktop/3.36/gnome-desktop-3.36.0.tar.xz",
-                    "sha256" : "4b04c359ccddeffb15f2e148a7871c474f6cfed1e0da21de060a93f6b9ae5c15"
+                    "url" : "https://download.gnome.org/sources/gnome-desktop/3.36/gnome-desktop-3.36.2.tar.xz",
+                    "sha256" : "38f994dcb1e1ae093d1c929c7acc4f88e39111e43b5fdc13125b0f6e2311c789"
                 }
             ]
         },
@@ -43,6 +42,10 @@
                     "url": "https://gitlab.gnome.org/GNOME/gnome-font-viewer.git",
                     "tag": "3.34.0",
                     "commit": "f8c6054ea0c0a9586e1a5c0e6460a4c0168c38af"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-appdata.xml.patch"
                 }
             ]
         }

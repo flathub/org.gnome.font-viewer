@@ -1,0 +1,24 @@
+From f8c6054ea0c0a9586e1a5c0e6460a4c0168c38af Sat Sep 14 00:23:34 2019
+From: corecontingency <ccontingency@gmail.com>
+Date: Sun Apr 26 00:21:30 2020
+Subject: [PATCH] Fix appdata for GNOME Font Viewer
+
+Just using this until the appdata is updated upstream.
+---
+index 6ad2994..c5f088f 100644
+--- a/data/org.gnome.font-viewer.appdata.xml.in
++++ b/data/org.gnome.font-viewer.appdata.xml.in
+@@ -35,6 +35,13 @@
+   </kudos>
+   <content_rating type="oars-1.1" />
+   <releases>
++    <release version="3.34.0" date="2019-09-14">
++      <description>
++        <ul>
++          <li>Translation updates</li>
++        </ul>
++      </description>
++    </release>
+     <release version="3.32.0" date="2019-03-15">
+       <description>
+         <ul>
