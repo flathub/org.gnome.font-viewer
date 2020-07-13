@@ -10,6 +10,7 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--talk-name=org.gtk.vfs", "--talk-name=org.gtk.vfs.*"
+        "--filesystems=xdg-data/fonts:create"
     ],
     "cleanup": [
         "/include",
