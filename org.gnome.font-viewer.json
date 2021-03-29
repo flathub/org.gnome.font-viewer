@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.font-viewer",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.38",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-font-viewer",
     "finish-args": [
@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url" : "https://download.gnome.org/sources/gnome-desktop/3.38/gnome-desktop-3.38.1.tar.xz",
-                    "sha256" : "17903513fed60814e967512dd892751cb6a1d2716136232884bc65bd53cc3be0"
+                    "url" : "https://download.gnome.org/sources/gnome-desktop/40/gnome-desktop-40.0.tar.xz",
+                    "sha256" : "20abfd3f831e4e8092b55839311661dc73b2bf13fc9bef71c4a5a4475da9ee04"
                 }
             ]
         },
@@ -41,12 +41,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/GNOME/gnome-font-viewer.git",
-                    "tag": "3.34.0",
-                    "commit": "f8c6054ea0c0a9586e1a5c0e6460a4c0168c38af"
-                },
-                {
-                    "type": "patch",
-                    "path": "fix-appdata.xml.patch"
+                    "tag": "40.0",
+                    "commit": "582be4681447e7d7f3d012d0224ddf07fee10ef2"
                 }
             ]
         }
