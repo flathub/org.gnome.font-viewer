@@ -30,7 +30,11 @@
                 {
                     "type": "archive",
                     "url" : "https://download.gnome.org/sources/gnome-desktop/40/gnome-desktop-40.0.tar.xz",
-                    "sha256" : "20abfd3f831e4e8092b55839311661dc73b2bf13fc9bef71c4a5a4475da9ee04"
+                    "sha256" : "20abfd3f831e4e8092b55839311661dc73b2bf13fc9bef71c4a5a4475da9ee04",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "gnome-desktop"
+                    }
                 }
             ]
         },
@@ -39,10 +43,13 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/GNOME/gnome-font-viewer.git",
-                    "tag": "40.0",
-                    "commit": "582be4681447e7d7f3d012d0224ddf07fee10ef2"
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gnome-font-viewer/40/gnome-font-viewer-40.0.tar.xz",
+                    "sha256": "d2cc7686946690dc274a5d0c72841d358d0ccd42d3f34993c698bdf13588fe42",
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "gnome-font-viewer"
+                    }
                 }
             ]
         }
