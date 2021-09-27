@@ -9,15 +9,20 @@
         "--share=ipc",
         "--socket=wayland",
         "--socket=fallback-x11",
-        "--talk-name=org.gtk.vfs", "--talk-name=org.gtk.vfs.*",
+        "--talk-name=org.gtk.vfs",
+        "--talk-name=org.gtk.vfs.*",
         "--filesystem=xdg-data/fonts:create"
     ],
     "cleanup": [
         "/include",
-        "/lib/pkgconfig", "/share/pkgconfig",
+        "/lib/pkgconfig",
+        "/share/pkgconfig",
         "/share/aclocal",
-        "/man", "/share/man", "/share/gtk-doc",
-        "*.la", ".a",
+        "/man",
+        "/share/man",
+        "/share/gtk-doc",
+        "*.la",
+        ".a",
         "/lib/girepository-1.0",
         "/share/gir-1.0",
         "/share/doc"
@@ -29,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url" : "https://download.gnome.org/sources/gnome-desktop/40/gnome-desktop-40.0.tar.xz",
-                    "sha256" : "20abfd3f831e4e8092b55839311661dc73b2bf13fc9bef71c4a5a4475da9ee04",
+                    "url": "https://download.gnome.org/sources/gnome-desktop/41/gnome-desktop-41.0.tar.xz",
+                    "sha256": "69cb1d3d9a10700eb66348ef1c0e66a855fc5a97ae62902df97a499da11562d2",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-desktop"
@@ -44,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-font-viewer/40/gnome-font-viewer-40.0.tar.xz",
-                    "sha256": "d2cc7686946690dc274a5d0c72841d358d0ccd42d3f34993c698bdf13588fe42",
+                    "url": "https://download.gnome.org/sources/gnome-font-viewer/41/gnome-font-viewer-41.0.tar.xz",
+                    "sha256": "5dd410331be070e4e034397f2754980e073851d50a2119f2fbf96adc6fe2e876",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-font-viewer"
