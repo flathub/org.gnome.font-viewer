@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/42/gnome-desktop-42.0.tar.xz",
-                    "sha256": "f3caa293a5e86f6ccad18f817273db1c67061e680d79d839aa8a7528e5bb26d6",
+                    "url": "https://download.gnome.org/sources/gnome-desktop/42/gnome-desktop-42.3.tar.xz",
+                    "sha256": "da50410b8f19fd7e775b00d1fe0dba67fc5e1151ded299158dc25ddadc3fa8a9",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-desktop"
