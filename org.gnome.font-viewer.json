@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/43/gnome-desktop-43.tar.xz",
-                    "sha256": "3d6e153317486157596aa3802f87676414c570738f450a94a041fe8835420a69",
+                    "url": "https://download.gnome.org/sources/gnome-desktop/43/gnome-desktop-43.2.tar.xz",
+                    "sha256": "a0b9ab20d28a63df6ce7e91eabb5e3af86630bf522b5a8997c04971bd551d730",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-desktop"
