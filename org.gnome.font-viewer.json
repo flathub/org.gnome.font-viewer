@@ -1,5 +1,5 @@
 {
-    "app-id": "org.gnome.font-viewer",
+    "id": "org.gnome.font-viewer",
     "runtime": "org.gnome.Platform",
     "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
