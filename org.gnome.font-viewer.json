@@ -1,7 +1,7 @@
 {
     "id": "org.gnome.font-viewer",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-font-viewer",
     "finish-args": [
