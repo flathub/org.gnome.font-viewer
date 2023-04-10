@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/44/gnome-desktop-44.tar.xz",
-                    "sha256": "ec8168a3ba91cab8772d56cc373a2bd309ca4ea1f00e5087e60faccbdb3cc985",
+                    "url": "https://download.gnome.org/sources/gnome-desktop/44/gnome-desktop-44.0.tar.xz",
+                    "sha256": "42c773745d84ba14bc1cf1c4c6f4606148803a5cd337941c63964795f3c59d42",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-desktop"
