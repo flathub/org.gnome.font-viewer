@@ -1,7 +1,7 @@
 {
-    "app-id": "org.gnome.font-viewer",
+    "id": "org.gnome.font-viewer",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "gnome-font-viewer",
     "finish-args": [
@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-desktop/43/gnome-desktop-43.tar.xz",
-                    "sha256": "3d6e153317486157596aa3802f87676414c570738f450a94a041fe8835420a69",
+                    "url": "https://download.gnome.org/sources/gnome-desktop/44/gnome-desktop-44.tar.xz",
+                    "sha256": "ec8168a3ba91cab8772d56cc373a2bd309ca4ea1f00e5087e60faccbdb3cc985",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-desktop"
@@ -48,8 +48,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnome-font-viewer/43/gnome-font-viewer-43.0.tar.xz",
-                    "sha256": "81c6bffb06d5332346e00eaecaec1bdcfd617c51dfd95bcd058d6c76c76dd2b9",
+                    "url": "https://download.gnome.org/sources/gnome-font-viewer/44/gnome-font-viewer-44.0.tar.xz",
+                    "sha256": "a1511df30b228cc2ef1175dd9d2b93438ea912e25913404b263cf3d457bb9f97",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnome-font-viewer"
